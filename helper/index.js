@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-	covertVideo: require('./video');
+	convertVideo: require('./video')
 }

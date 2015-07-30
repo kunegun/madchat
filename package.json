@@ -23,9 +23,13 @@
     "browserify": "^11.0.0"
   },
   "dependencies": {
+    "async": "^1.4.0",
     "body": "^5.1.0",
+    "concat-stream": "^1.5.0",
     "course": "0.0.1",
+    "data-uri-to-buffer": "0.0.4",
     "st": "^0.5.4",
+    "uuid": "^2.0.1",
     "webrtc2images": "^1.4.4",
     "xhr": "^2.0.3"
   }
