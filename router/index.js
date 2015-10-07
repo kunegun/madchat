@@ -14,7 +14,6 @@ const mount = st({
 	passthrough: true
 });
 
-
 function onRequest(req, res){
 	if (req.url.startsWith('/socket.io')) return
 

@@ -1,27 +1,26 @@
 html, body {
   height: 100%;
   position: relative;
-}
-
-body {
-  padding: 5px;
+  background-color: #eaeaea;
+  font-family: monospace;
 }
 
 section {
   width: 100%;
-  height: 100%;
+  height: auto;
   position: relative;
 }
 
 ul#messages {
   clear: both;
-  float: left;
   position: relative;
   margin: 0 0 205px 0;
   padding: 0px;
   width: 100%;
   list-style: none;
   z-index: 1;
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 li {
@@ -29,26 +28,53 @@ li {
   float: left;
   position: relative;
   width: 100%;
+  background-color: white;
+  margin-top: 5px;
 }
 
 li p {
-  border-bottom: solid 1px #ccc;
-  float: left;
+  display: inline-block;
   font-size: 1.15rem;
-  font-weight: bolder;
   line-height: 1.5rem;
   overflow: hidden;
   padding-left: 10px;
-  height: 200px;
+  height: auto;
   margin: 0;
-  width: 80%;
+  width: auto;
+  min-width: 250px;
 }
 
 .video-container {
-  float: left;
+  display: inline-block;
+  vertical-align: middle;
   height: 200px;
   width: 200px;
   position: relative;
+}
+header{
+  background-color: #43FF61;
+  height: 50px;
+}
+header .content{
+  max-width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+header .content img{
+  height: 100%;
+  width: auto;
+}
+header .content h1{
+  text-align: center;
+  font-size: 4em;
+  margin: 0;
+}
+header .content .version{
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 footer {
@@ -65,6 +91,14 @@ footer form {
   position: fixed;
   background-color: rgba(10, 10, 10, 0.8);
 }
+footer #num-users{
+  bottom: 5px;
+  color: #43FF61;
+  position: fixed;
+  right: 10px;
+  text-align: right;
+  z-index: 5;
+}
 
 #video-preview {
   width: 200px;
@@ -74,6 +108,14 @@ footer form {
   left: 5px;
   position: fixed;
   z-index: 6;
+  border: 2px solid #43FF61;
+  border-radius: 10px;
+}
+#video-preview img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
 }
 
 input[type="text"] {

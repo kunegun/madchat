@@ -1,5 +1,5 @@
 {
-  "name": "animate-server",
+  "name": "madchat",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kunegun/platzi-animate-server.git"
+    "url": "https://github.com/kunegun/madchat.git"
   },
   "author": "Gonzalo Ribera (kunegun@gmail.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kunegun/platzi-animate-server/issues"
+    "url": "https://github.com/kunegun/madchat/issues"
   },
-  "homepage": "https://github.com/kunegun/platzi-animate-server#readme",
+  "homepage": "https://github.com/kunegun/madchat#readme",
   "devDependencies": {
     "browserify": "^11.0.0",
     "hbsfy": "^2.2.1"
@@ -38,6 +38,5 @@
     "st": "^0.5.4",
     "uuid": "^2.0.1",
     "webrtc2images": "^1.4.4",
-    "xhr": "^2.0.3"
   }
 }

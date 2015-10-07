@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-	convertVideo: require('./video')
+	convertVideo: require('./gif')
 }
